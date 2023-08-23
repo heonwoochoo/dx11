@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Engine">
+      <UniqueIdentifier>{27d75628-d554-4d06-8fb9-bc5d0cc0c27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Graphics">
+      <UniqueIdentifier>{88b8b9b3-26f9-4adb-89f1-5d3b5b55bc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers">
+      <UniqueIdentifier>{f8645b2c-b15c-452a-a426-1f764b46810c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{19d42e43-46ed-4359-8934-b351102254ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component">
+      <UniqueIdentifier>{97f4c1b7-ffe7-4b14-bb5c-0cf32aa41a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utils">
+      <UniqueIdentifier>{4cd9e857-2479-43b4-943f-0e6ef3020fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{be7e0ac0-5b10-410d-b20a-1cec7aeb7089}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>99.Headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
