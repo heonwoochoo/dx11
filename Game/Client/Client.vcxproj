@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConstantBufferDemo.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="QuadDemo.h" />
     <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConstantBufferDemo.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -34,6 +36,7 @@
     <ClCompile Include="TriangleDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
     <FxCompile Include="..\Shaders\Quad.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </AdditionalIncludeDirectories>
