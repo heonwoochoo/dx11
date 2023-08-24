@@ -1,8 +1,28 @@
-﻿  C:\Users\user\Documents\GitHub\dx11\Game\Engine\framework.h
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\) contains files shared from another project (Client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Define.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\EnginePch.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Geometry.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\IExecute.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
-  2개 파일이 복사되었습니다.
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\TimeManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Types.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
+  21개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
-  pch.cpp
-  Engine.cpp
+  Shader.cpp
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
   Engine.vcxproj -> C:\Users\user\Documents\GitHub\dx11\Game\Libraries\Lib\Engine\Engine.lib
