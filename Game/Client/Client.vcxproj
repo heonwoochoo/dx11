@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="QuadDemo.h" />
     <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <ItemGroup>
@@ -29,9 +30,20 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="QuadDemo.cpp" />
     <ClCompile Include="TriangleDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <FxCompile Include="..\Shaders\Quad.fx">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalIncludeDirectories>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalIncludeDirectories>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
     <FxCompile Include="..\Shaders\Triangle.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </AdditionalIncludeDirectories>
@@ -151,8 +163,10 @@
     </FxCompile>
     <FxCompile />
     <FxCompile>
-      <ShaderModel>4.0_level_9_3</ShaderModel>
-      <AdditionalIncludeDirectories>main</AdditionalIncludeDirectories>
+      <ShaderModel>5.0</ShaderModel>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ShaderType>Effect</ShaderType>
     </FxCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -179,8 +193,10 @@
     </FxCompile>
     <FxCompile />
     <FxCompile>
-      <ShaderModel>4.0_level_9_3</ShaderModel>
-      <AdditionalIncludeDirectories>main</AdditionalIncludeDirectories>
+      <ShaderModel>5.0</ShaderModel>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ShaderType>Effect</ShaderType>
     </FxCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,6 +1,7 @@
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ConstantBuffer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Game.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Geometry.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Geometry.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\GeometryHelper.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Graphics.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\IExecute.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\IExecute.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\IndexBuffer.obj
