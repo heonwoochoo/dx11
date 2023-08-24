@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CameraDemo.h" />
+    <ClInclude Include="CameraScript.h" />
     <ClInclude Include="ConstantBufferDemo.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
@@ -26,6 +28,8 @@
     <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CameraDemo.cpp" />
+    <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="ConstantBufferDemo.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
@@ -57,6 +61,7 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
+    <FxCompile Include="..\Shaders\World.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

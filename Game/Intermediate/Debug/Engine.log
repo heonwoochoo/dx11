@@ -1,14 +1,18 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\) contains files shared from another project (Client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Camera.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Component.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Define.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\EnginePch.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\GameObject.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Geometry.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IExecute.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h
@@ -17,11 +21,12 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\TimeManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Transform.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Types.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  22개 파일이 복사되었습니다.
+  27개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -31,12 +36,15 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(5,2): warning C43
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4340: 'Mesh': value wrapped from positive to negative value
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4309: 'initializing': truncation of constant value
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4369: 'ResourceType::Mesh':  enumerator value '256' cannot be represented as 'unsigned char', value is '256'
+  Camera.cpp
+  Component.cpp
   ConstantBuffer.cpp
   Game.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,33): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,33): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,46): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,46): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
+  GameObject.cpp
   Geometry.cpp
   GeometryHelper.cpp
   Graphics.cpp
@@ -45,6 +53,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(31,47): warning C42
   IExecute.cpp
   IndexBuffer.cpp
   InputManager.cpp
+  MonoBehaviour.cpp
   Pass.cpp
   ResourceBase.cpp
   ResourceManager.cpp
@@ -55,6 +64,10 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C426
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(24,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
   TimeManager.cpp
+  Transform.cpp
+  Generating Code...
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(93): warning C4715: 'Game::WndProc': not all control paths return a value
+  Compiling...
   Utils.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
           with
@@ -80,5 +93,4 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(29,2): message : see t
   VertexBuffer.cpp
   VertexData.cpp
   Generating Code...
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(93): warning C4715: 'Game::WndProc': not all control paths return a value
   Engine.vcxproj -> C:\Users\user\Documents\GitHub\dx11\Game\Libraries\Lib\Engine\Engine.lib
