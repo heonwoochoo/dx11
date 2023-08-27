@@ -14,8 +14,8 @@ void HeightMapDemo::Init()
 	_texture = RESOURCES->Load<Texture>(L"Texture", L"..\\Resources\\Textures\\Terrain\\RidgeTexture.png");
 	_heightMap = RESOURCES->Load<Texture>(L"Height", L"..\\Resources\\Textures\\Terrain\\RidgeHeightMap.png");
 
-	const int32 width = _heightMap->GetSize().x;
-	const int32 height = _heightMap->GetSize().y;
+	const int32 width = (int32)_heightMap->GetSize().x;
+	const int32 height = (int32)_heightMap->GetSize().y;
 
 	const DirectX::ScratchImage& info = _heightMap->GetInfo();
 	uint8* pixelBuffer = info.GetPixels();
@@ -34,7 +34,7 @@ void HeightMapDemo::Init()
 			for (int32 x = 0; x < width; x++)
 			{
 				int32 idx = width * z + x;
-				uint8 pixelheight = pixelBuffer[idx] / 255.f * 25.f;
+				uint8 pixelheight = (uint8)(pixelBuffer[idx] / 255.f * 25.f);
 				v[idx].position.y = pixelheight;	// 높이보정
 			}
 		}

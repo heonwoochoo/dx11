@@ -25,11 +25,6 @@ private:
 	shared_ptr<Shader> _shader;
 
 private:
-	// caching shader variable
-	ComPtr<ID3DX11EffectMatrixVariable>			_fxWorld;
-	ComPtr<ID3DX11EffectMatrixVariable>			_fxView;
-	ComPtr<ID3DX11EffectMatrixVariable>			_fxProjection;
 	ComPtr<ID3DX11EffectShaderResourceVariable> _fxTexture;
-	ComPtr<ID3DX11EffectVectorVariable> 		_fxLightDir;
 };
 

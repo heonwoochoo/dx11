@@ -17,6 +17,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\RenderManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.h
@@ -28,7 +29,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  29개 파일이 복사되었습니다.
+  30개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -64,17 +65,18 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(31,47): warning C42
   MeshRenderer.cpp
   MonoBehaviour.cpp
   Pass.cpp
+  RenderManager.cpp
   ResourceBase.cpp
   ResourceManager.cpp
   Shader.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
   Technique.cpp
-  Texture.cpp
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(24,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
   Generating Code...
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(93): warning C4715: 'Game::WndProc': not all control paths return a value
   Compiling...
+  Texture.cpp
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(24,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
   TimeManager.cpp
   Transform.cpp
   Utils.cpp
