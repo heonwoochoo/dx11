@@ -45,6 +45,12 @@
     <ClCompile Include="HeightMapDemo.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="NormalDemo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDemo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -77,6 +83,12 @@
     <ClInclude Include="HeightMapDemo.h">
       <Filter>Game</Filter>
     </ClInclude>
+    <ClInclude Include="NormalDemo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDemo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\Triangle.fx">
@@ -95,6 +107,9 @@
       <Filter>Shaders</Filter>
     </FxCompile>
     <FxCompile Include="..\Shaders\Terrain.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Normal.fx">
       <Filter>Shaders</Filter>
     </FxCompile>
   </ItemGroup>

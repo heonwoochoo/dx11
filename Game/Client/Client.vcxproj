@@ -24,6 +24,8 @@
     <ClInclude Include="ConstantBufferDemo.h" />
     <ClInclude Include="HeightMapDemo.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="MeshDemo.h" />
+    <ClInclude Include="NormalDemo.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="QuadDemo.h" />
     <ClInclude Include="SamplerDemo.h" />
@@ -36,6 +38,8 @@
     <ClCompile Include="ConstantBufferDemo.cpp" />
     <ClCompile Include="HeightMapDemo.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MeshDemo.cpp" />
+    <ClCompile Include="NormalDemo.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
@@ -47,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
+    <FxCompile Include="..\Shaders\Normal.fx" />
     <FxCompile Include="..\Shaders\Quad.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </AdditionalIncludeDirectories>
@@ -168,6 +173,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Libraries\Include\;$(SolutionDir)Libraries\Include\Engine\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -196,6 +202,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Libraries\Include\;$(SolutionDir)Libraries\Include\Engine\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
