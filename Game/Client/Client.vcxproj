@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AmbientDemo.h" />
     <ClInclude Include="CameraDemo.h" />
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="ConstantBufferDemo.h" />
@@ -35,6 +36,7 @@
     <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AmbientDemo.cpp" />
     <ClCompile Include="CameraDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="ConstantBufferDemo.cpp" />
@@ -57,6 +59,7 @@
     <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
     <FxCompile Include="..\Shaders\Global.fx" />
     <FxCompile Include="..\Shaders\GlobalTest.fx" />
+    <FxCompile Include="..\Shaders\Lighting_Ambient.fx" />
     <FxCompile Include="..\Shaders\Normal.fx" />
     <FxCompile Include="..\Shaders\Quad.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
