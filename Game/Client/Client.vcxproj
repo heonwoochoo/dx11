@@ -25,6 +25,7 @@
     <ClInclude Include="ConstantBufferDemo.h" />
     <ClInclude Include="DepthStencilDemo.h" />
     <ClInclude Include="DiffuseDemo.h" />
+    <ClInclude Include="EmissiveDemo.h" />
     <ClInclude Include="GlobalTestDemo.h" />
     <ClInclude Include="HeightMapDemo.h" />
     <ClInclude Include="Main.h" />
@@ -44,6 +45,7 @@
     <ClCompile Include="ConstantBufferDemo.cpp" />
     <ClCompile Include="DepthStencilDemo.cpp" />
     <ClCompile Include="DiffuseDemo.cpp" />
+    <ClCompile Include="EmissiveDemo.cpp" />
     <ClCompile Include="GlobalTestDemo.cpp" />
     <ClCompile Include="HeightMapDemo.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -65,6 +67,7 @@
     <FxCompile Include="..\Shaders\GlobalTest.fx" />
     <FxCompile Include="..\Shaders\Lighting_Ambient.fx" />
     <FxCompile Include="..\Shaders\Lighting_Diffuse.fx" />
+    <FxCompile Include="..\Shaders\Lighting_Emissive.fx" />
     <FxCompile Include="..\Shaders\Lighting_Specular.fx" />
     <FxCompile Include="..\Shaders\Normal.fx" />
     <FxCompile Include="..\Shaders\Quad.fx">
