@@ -56,8 +56,8 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(385,23): warn
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(387,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(407,23): warning C4018: '<': signed/unsigned mismatch
   Graphics.cpp
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(30,46): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(31,47): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(32,46): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
   IExecute.cpp
   IndexBuffer.cpp
   InputManager.cpp
