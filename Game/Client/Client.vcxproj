@@ -33,6 +33,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="QuadDemo.h" />
     <ClInclude Include="SamplerDemo.h" />
+    <ClInclude Include="SpecularDemo.h" />
     <ClInclude Include="TextureDemo.h" />
     <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
@@ -54,6 +55,7 @@
     </ClCompile>
     <ClCompile Include="QuadDemo.cpp" />
     <ClCompile Include="SamplerDemo.cpp" />
+    <ClCompile Include="SpecularDemo.cpp" />
     <ClCompile Include="TextureDemo.cpp" />
     <ClCompile Include="TriangleDemo.cpp" />
   </ItemGroup>
@@ -63,6 +65,7 @@
     <FxCompile Include="..\Shaders\GlobalTest.fx" />
     <FxCompile Include="..\Shaders\Lighting_Ambient.fx" />
     <FxCompile Include="..\Shaders\Lighting_Diffuse.fx" />
+    <FxCompile Include="..\Shaders\Lighting_Specular.fx" />
     <FxCompile Include="..\Shaders\Normal.fx" />
     <FxCompile Include="..\Shaders\Quad.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

@@ -78,6 +78,9 @@
     <ClCompile Include="DiffuseDemo.cpp">
       <Filter>Game\Week2</Filter>
     </ClCompile>
+    <ClCompile Include="SpecularDemo.cpp">
+      <Filter>Game\Week2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -128,6 +131,9 @@
     <ClInclude Include="DiffuseDemo.h">
       <Filter>Game\Week2</Filter>
     </ClInclude>
+    <ClInclude Include="SpecularDemo.h">
+      <Filter>Game\Week2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\ConstantBuffer.fx">
@@ -161,6 +167,9 @@
       <Filter>Shaders\Week2</Filter>
     </FxCompile>
     <FxCompile Include="..\Shaders\Lighting_Diffuse.fx">
+      <Filter>Shaders\Week2</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Lighting_Specular.fx">
       <Filter>Shaders\Week2</Filter>
     </FxCompile>
   </ItemGroup>
