@@ -23,7 +23,7 @@ public:
 private:
 
 	// Mesh
-	shared_ptr<Geometry<VertexTextureNormalData>> _geometry;
+	shared_ptr<Geometry<VertexTextureNormalTangentData>> _geometry;
 	shared_ptr<VertexBuffer>	_vertexBuffer;
 	shared_ptr<IndexBuffer>		_indexBuffer;
 };

@@ -12,6 +12,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IExecute.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
@@ -29,7 +30,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  30개 파일이 복사되었습니다.
+  31개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -55,12 +56,19 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(373,23): warn
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(385,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(387,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(407,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(578,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(583,24): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(619,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(631,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(633,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(653,23): warning C4018: '<': signed/unsigned mismatch
   Graphics.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(32,46): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
   IExecute.cpp
   IndexBuffer.cpp
   InputManager.cpp
+  Material.cpp
   Mesh.cpp
   MeshRenderer.cpp
   MonoBehaviour.cpp
@@ -70,10 +78,10 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C42
   ResourceManager.cpp
   Shader.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-  Technique.cpp
   Generating Code...
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(93): warning C4715: 'Game::WndProc': not all control paths return a value
   Compiling...
+  Technique.cpp
   Texture.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(24,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data

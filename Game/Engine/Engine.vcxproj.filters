@@ -114,6 +114,9 @@
     <ClCompile Include="RenderManager.cpp">
       <Filter>02.Managers</Filter>
     </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>00.Engine\Resource</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -205,6 +208,9 @@
     </ClInclude>
     <ClInclude Include="RenderManager.h">
       <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>00.Engine\Resource</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

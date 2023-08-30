@@ -9,6 +9,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp;C:\Users\user\Docum
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\IExecute.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\IExecute.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\IndexBuffer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\InputManager.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Material.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Mesh.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MeshRenderer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MonoBehaviour.obj
