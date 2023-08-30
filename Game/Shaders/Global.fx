@@ -11,6 +11,7 @@ cbuffer GlobalBuffer
     matrix V;
     matrix P;
     matrix VP; // V,P를 곱해서 넘겨주면 연산 효율이 올라감
+    matrix VInv;
 };
 
 cbuffer TransformBuffer
@@ -119,7 +120,7 @@ pass name                                               \
 
 float3 CameraPosition()
 {
-    return -V._41_42_43;
+    return VInv._41_42_43;
 }
 
 #endif

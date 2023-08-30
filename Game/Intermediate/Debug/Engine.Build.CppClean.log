@@ -1,8 +1,6 @@
+c:\users\user\documents\github\dx11\game\intermediate\debug\engine.pch
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.pdb
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.idb
-c:\users\user\documents\github\dx11\game\intermediate\debug\meshrenderer.obj
-c:\users\user\documents\github\dx11\game\intermediate\debug\material.obj
-c:\users\user\documents\github\dx11\game\intermediate\debug\engine.pch
 c:\users\user\documents\github\dx11\game\intermediate\debug\pch.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\shader.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\resourcemanager.obj
@@ -10,7 +8,9 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\resourcebase.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\rendermanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\pass.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\monobehaviour.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\meshrenderer.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\mesh.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\material.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\inputmanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\indexbuffer.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\iexecute.obj
@@ -44,6 +44,7 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\main.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\materialdemo.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\meshdemo.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\normaldemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\normalmappingdemo.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\quaddemo.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\samplerdemo.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\speculardemo.obj
