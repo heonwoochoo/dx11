@@ -1,4 +1,4 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\) contains files shared from another project (Client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\) contains files shared from another project (AssimpTool.vcxproj, Client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Camera.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Component.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.h
