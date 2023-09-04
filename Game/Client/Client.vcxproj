@@ -20,52 +20,34 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmbientDemo.h" />
-    <ClInclude Include="CameraDemo.h" />
     <ClInclude Include="CameraScript.h" />
-    <ClInclude Include="ConstantBufferDemo.h" />
     <ClInclude Include="DepthStencilDemo.h" />
     <ClInclude Include="DiffuseDemo.h" />
     <ClInclude Include="EmissiveDemo.h" />
     <ClInclude Include="GlobalTestDemo.h" />
-    <ClInclude Include="HeightMapDemo.h" />
     <ClInclude Include="LightingDemo.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="MaterialDemo.h" />
-    <ClInclude Include="MeshDemo.h" />
-    <ClInclude Include="NormalDemo.h" />
     <ClInclude Include="NormalMappingDemo.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="QuadDemo.h" />
-    <ClInclude Include="SamplerDemo.h" />
     <ClInclude Include="SpecularDemo.h" />
-    <ClInclude Include="TextureDemo.h" />
-    <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AmbientDemo.cpp" />
-    <ClCompile Include="CameraDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
-    <ClCompile Include="ConstantBufferDemo.cpp" />
     <ClCompile Include="DepthStencilDemo.cpp" />
     <ClCompile Include="DiffuseDemo.cpp" />
     <ClCompile Include="EmissiveDemo.cpp" />
     <ClCompile Include="GlobalTestDemo.cpp" />
-    <ClCompile Include="HeightMapDemo.cpp" />
     <ClCompile Include="LightingDemo.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MaterialDemo.cpp" />
-    <ClCompile Include="MeshDemo.cpp" />
-    <ClCompile Include="NormalDemo.cpp" />
     <ClCompile Include="NormalMappingDemo.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="QuadDemo.cpp" />
-    <ClCompile Include="SamplerDemo.cpp" />
     <ClCompile Include="SpecularDemo.cpp" />
-    <ClCompile Include="TextureDemo.cpp" />
-    <ClCompile Include="TriangleDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
@@ -77,6 +59,7 @@
     <FxCompile Include="..\Shaders\Lighting_Diffuse.fx" />
     <FxCompile Include="..\Shaders\Lighting_Emissive.fx" />
     <FxCompile Include="..\Shaders\Lighting_Specular.fx" />
+    <FxCompile Include="..\Shaders\ModelDemo.fx" />
     <FxCompile Include="..\Shaders\Normal.fx" />
     <FxCompile Include="..\Shaders\NormalMapping.fx" />
     <FxCompile Include="..\Shaders\Quad.fx">

@@ -4,6 +4,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Define.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\EnginePch.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\FileUtils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\GameObject.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Geometry.h
@@ -15,6 +16,9 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Model.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelMesh.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelRenderer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
@@ -30,32 +34,10 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  31개 파일이 복사되었습니다.
+  35개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
-  Shader.cpp
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-  Utils.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
-          with
-          [
-              _Elem=char
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2584,17): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
-          with
-          [
-              _Size_type=unsigned __int64,
-              _Iter=wchar_t *,
-              _Sent=wchar_t *,
-              _Size=unsigned __int64
-          ]
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,15): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
-          with
-          [
-              _Elem=wchar_t,
-              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
-              _Alloc=std::allocator<char>
-          ]
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,2): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Utils::ToString'
+  Model.cpp
+  ModelRenderer.cpp
   Generating Code...
   Engine.vcxproj -> C:\Users\user\Documents\GitHub\dx11\Game\Libraries\Lib\Engine\Engine.lib

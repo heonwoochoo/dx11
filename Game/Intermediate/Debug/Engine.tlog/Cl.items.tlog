@@ -1,6 +1,7 @@
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Camera.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Camera.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Component.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Component.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ConstantBuffer.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\FileUtils.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\FileUtils.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Game.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\GameObject.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\GameObject.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Geometry.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Geometry.obj
@@ -12,6 +13,9 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.cpp;C:\Users\user\D
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Material.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Mesh.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MeshRenderer.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Model.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Model.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelMesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ModelMesh.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ModelRenderer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MonoBehaviour.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Pass.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\pch.obj
