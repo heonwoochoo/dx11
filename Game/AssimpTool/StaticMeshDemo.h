@@ -9,6 +9,8 @@ public:
 	void Render() override;
 
 	void CreateTower();
+	void CreateDragon();
+	void CreateTank();
 
 private:
 	shared_ptr<Shader>		_shader;

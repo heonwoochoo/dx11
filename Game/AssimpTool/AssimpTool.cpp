@@ -29,6 +29,19 @@ void AssimpTool::Init()
 
 		// custom data (file) -> memory 
 	}
+
+	{
+		shared_ptr<Converter> converter = make_shared<Converter>();
+
+		// fbx -> memory
+		converter->ReadAssetFile(L"Tank/Tank.fbx");
+
+		// memory -> custom data (file)
+		converter->ExportMaterialData(L"Tank/Tank");
+		converter->ExportModelData(L"Tank/Tank");
+
+		// custom data (file) -> memory 
+	}
 }
 
 void AssimpTool::Update()
