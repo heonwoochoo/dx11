@@ -2,7 +2,6 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\engine.pch
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.pdb
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.idb
 c:\users\user\documents\github\dx11\game\intermediate\debug\pch.obj
-c:\users\user\documents\github\dx11\game\intermediate\debug\pass.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\monobehaviour.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\modelrenderer.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\modelmesh.obj
@@ -12,6 +11,7 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\mesh.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\material.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\inputmanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\indexbuffer.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\imguimanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\iexecute.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\graphics.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\geometryhelper.obj
@@ -33,7 +33,19 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\shader.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\resourcemanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\resourcebase.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\rendermanager.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\pass.obj
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.lib
+c:\users\user\documents\github\dx11\game\intermediate\debug\assimptool.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\astypes.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\camerascript.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\converter.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\imguidemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\main.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\staticmeshdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\assimptool.ilk
+c:\users\user\documents\github\dx11\game\intermediate\debug\assimptool.pch
+c:\users\user\documents\github\dx11\game\intermediate\debug\vc143.idb
+c:\users\user\documents\github\dx11\game\intermediate\debug\vc143.pdb
 c:\users\user\documents\github\dx11\game\intermediate\debug\engine.vcxproj.filelistabsolute.txt
 c:\users\user\documents\github\dx11\game\intermediate\debug\engine.tlog\cl.command.1.tlog
 c:\users\user\documents\github\dx11\game\intermediate\debug\engine.tlog\cl.items.tlog

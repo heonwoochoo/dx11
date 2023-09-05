@@ -11,6 +11,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IExecute.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ImGuiManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.h
@@ -34,7 +35,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  35개 파일이 복사되었습니다.
+  36개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -48,10 +49,10 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C43
   ConstantBuffer.cpp
   FileUtils.cpp
   Game.cpp
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,33): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,33): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,46): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(65,46): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(68,33): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(68,33): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(68,46): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(68,46): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
   GameObject.cpp
   Geometry.cpp
   GeometryHelper.cpp
@@ -71,6 +72,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\GeometryHelper.cpp(653,23): warn
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(32,46): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
   IExecute.cpp
+  ImGuiManager.cpp
   IndexBuffer.cpp
   InputManager.cpp
   Material.cpp
@@ -80,10 +82,10 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C42
   ModelMesh.cpp
   ModelRenderer.cpp
   MonoBehaviour.cpp
-  Pass.cpp
   Generating Code...
-C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(93): warning C4715: 'Game::WndProc': not all control paths return a value
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(99): warning C4715: 'Game::WndProc': not all control paths return a value
   Compiling...
+  Pass.cpp
   RenderManager.cpp
   ResourceBase.cpp
   ResourceManager.cpp

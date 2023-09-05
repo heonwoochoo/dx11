@@ -177,6 +177,7 @@ xcopy /Y "$(SolutionDir)Engine\*.inl" "$(SolutionDir)Libraries\Include\Engine"</
     <ClInclude Include="GeometryHelper.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="IExecute.h" />
+    <ClInclude Include="ImGuiManager.h" />
     <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="Material.h" />
@@ -212,6 +213,7 @@ xcopy /Y "$(SolutionDir)Engine\*.inl" "$(SolutionDir)Libraries\Include\Engine"</
     <ClCompile Include="GeometryHelper.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="IExecute.cpp" />
+    <ClCompile Include="ImGuiManager.cpp" />
     <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Material.cpp" />

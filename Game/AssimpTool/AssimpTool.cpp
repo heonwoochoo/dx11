@@ -8,37 +8,11 @@ void AssimpTool::Init()
 		shared_ptr<Converter> converter = make_shared<Converter>();
 
 		// fbx -> memory
-		converter->ReadAssetFile(L"Dragon/Dragon 2.5_fbx.fbx");
+		converter->ReadAssetFile(L"Kachujin/Mesh.fbx");
 
 		// memory -> custom data (file)
-		converter->ExportMaterialData(L"Dragon/Dragon");
-		converter->ExportModelData(L"Dragon/Dragon");
-
-		// custom data (file) -> memory 
-	}
-
-	{
-		shared_ptr<Converter> converter = make_shared<Converter>();
-
-		// fbx -> memory
-		converter->ReadAssetFile(L"House/wooden watch tower2.fbx");
-
-		// memory -> custom data (file)
-		converter->ExportMaterialData(L"House/House");
-		converter->ExportModelData(L"House/House");
-
-		// custom data (file) -> memory 
-	}
-
-	{
-		shared_ptr<Converter> converter = make_shared<Converter>();
-
-		// fbx -> memory
-		converter->ReadAssetFile(L"Tank/Tank.fbx");
-
-		// memory -> custom data (file)
-		converter->ExportMaterialData(L"Tank/Tank");
-		converter->ExportModelData(L"Tank/Tank");
+		converter->ExportMaterialData(L"Kachujin/Kachujin");
+		converter->ExportModelData(L"Kachujin/Kachujin");
 
 		// custom data (file) -> memory 
 	}
