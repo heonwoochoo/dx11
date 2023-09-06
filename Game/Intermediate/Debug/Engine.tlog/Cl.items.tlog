@@ -15,6 +15,8 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.cpp;C:\Users\user\Docum
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Mesh.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MeshRenderer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Model.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Model.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelAnimation.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ModelAnimation.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelAnimator.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ModelAnimator.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelMesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ModelMesh.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ModelRenderer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MonoBehaviour.obj

@@ -50,6 +50,7 @@
     <ClCompile Include="SpecularDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <FxCompile Include="..\Shaders\AnimationDemo.fx" />
     <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
     <FxCompile Include="..\Shaders\Global.fx" />
     <FxCompile Include="..\Shaders\GlobalTest.fx" />

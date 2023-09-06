@@ -18,6 +18,8 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Model.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelAnimation.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelAnimator.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelMesh.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelRenderer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
@@ -35,7 +37,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  36개 파일이 복사되었습니다.
+  38개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -79,12 +81,14 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C42
   Mesh.cpp
   MeshRenderer.cpp
   Model.cpp
+  ModelAnimation.cpp
+  ModelAnimator.cpp
   ModelMesh.cpp
-  ModelRenderer.cpp
-  MonoBehaviour.cpp
   Generating Code...
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(99): warning C4715: 'Game::WndProc': not all control paths return a value
   Compiling...
+  ModelRenderer.cpp
+  MonoBehaviour.cpp
   Pass.cpp
   RenderManager.cpp
   ResourceBase.cpp

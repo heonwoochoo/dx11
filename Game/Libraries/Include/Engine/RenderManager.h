@@ -38,11 +38,12 @@ struct MaterialDesc
 };
 
 // Bone
-#define MAX_BONE_TRANSFORMS 50
+#define MAX_MODEL_TRANSFORMS 250
+#define MAX_MODEL_KEYFRAMES 500
 
 struct BoneDesc
 {
-	Matrix transforms[MAX_BONE_TRANSFORMS];
+	Matrix transforms[MAX_MODEL_TRANSFORMS];
 };
 
 class RenderManager
