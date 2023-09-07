@@ -25,6 +25,7 @@
     <ClInclude Include="DiffuseDemo.h" />
     <ClInclude Include="EmissiveDemo.h" />
     <ClInclude Include="GlobalTestDemo.h" />
+    <ClInclude Include="InstancingDemo.h" />
     <ClInclude Include="LightingDemo.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="MaterialDemo.h" />
@@ -39,6 +40,7 @@
     <ClCompile Include="DiffuseDemo.cpp" />
     <ClCompile Include="EmissiveDemo.cpp" />
     <ClCompile Include="GlobalTestDemo.cpp" />
+    <ClCompile Include="InstancingDemo.cpp" />
     <ClCompile Include="LightingDemo.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MaterialDemo.cpp" />
@@ -54,6 +56,7 @@
     <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
     <FxCompile Include="..\Shaders\Global.fx" />
     <FxCompile Include="..\Shaders\GlobalTest.fx" />
+    <FxCompile Include="..\Shaders\InstancingDemo.fx" />
     <FxCompile Include="..\Shaders\Light.fx" />
     <FxCompile Include="..\Shaders\Lighting.fx" />
     <FxCompile Include="..\Shaders\Lighting_Ambient.fx" />
