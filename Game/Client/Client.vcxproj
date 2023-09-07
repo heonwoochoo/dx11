@@ -74,6 +74,7 @@
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
     <FxCompile Include="..\Shaders\Sampler.fx" />
+    <FxCompile Include="..\Shaders\SkyDemo.fx" />
     <FxCompile Include="..\Shaders\Triangle.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </AdditionalIncludeDirectories>
