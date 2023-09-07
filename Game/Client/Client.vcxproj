@@ -86,6 +86,7 @@
     </FxCompile>
     <FxCompile Include="..\Shaders\Texture.fx" />
     <FxCompile Include="..\Shaders\Terrain.fx" />
+    <FxCompile Include="..\Shaders\TweenDemo.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
