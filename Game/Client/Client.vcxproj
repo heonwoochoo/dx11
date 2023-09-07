@@ -19,37 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AmbientDemo.h" />
     <ClInclude Include="CameraScript.h" />
-    <ClInclude Include="DepthStencilDemo.h" />
-    <ClInclude Include="DiffuseDemo.h" />
-    <ClInclude Include="EmissiveDemo.h" />
-    <ClInclude Include="GlobalTestDemo.h" />
     <ClInclude Include="InstancingDemo.h" />
-    <ClInclude Include="LightingDemo.h" />
     <ClInclude Include="Main.h" />
-    <ClInclude Include="MaterialDemo.h" />
-    <ClInclude Include="NormalMappingDemo.h" />
+    <ClInclude Include="MeshInstancingDemo.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="SpecularDemo.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AmbientDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
-    <ClCompile Include="DepthStencilDemo.cpp" />
-    <ClCompile Include="DiffuseDemo.cpp" />
-    <ClCompile Include="EmissiveDemo.cpp" />
-    <ClCompile Include="GlobalTestDemo.cpp" />
     <ClCompile Include="InstancingDemo.cpp" />
-    <ClCompile Include="LightingDemo.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="MaterialDemo.cpp" />
-    <ClCompile Include="NormalMappingDemo.cpp" />
+    <ClCompile Include="MeshInstancingDemo.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="SpecularDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\AnimationDemo.fx" />
@@ -63,6 +47,7 @@
     <FxCompile Include="..\Shaders\Lighting_Diffuse.fx" />
     <FxCompile Include="..\Shaders\Lighting_Emissive.fx" />
     <FxCompile Include="..\Shaders\Lighting_Specular.fx" />
+    <FxCompile Include="..\Shaders\MeshInstancingDemo.fx" />
     <FxCompile Include="..\Shaders\ModelDemo.fx" />
     <FxCompile Include="..\Shaders\Normal.fx" />
     <FxCompile Include="..\Shaders\NormalMapping.fx" />

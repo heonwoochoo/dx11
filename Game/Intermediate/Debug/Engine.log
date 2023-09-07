@@ -14,6 +14,8 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ImGuiManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\InstancingBuffer.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\InstancingManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.h
@@ -37,7 +39,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  38개 파일이 복사되었습니다.
+  40개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -77,16 +79,18 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C42
   ImGuiManager.cpp
   IndexBuffer.cpp
   InputManager.cpp
+  InstancingBuffer.cpp
+  InstancingManager.cpp
   Material.cpp
   Mesh.cpp
   MeshRenderer.cpp
   Model.cpp
   ModelAnimation.cpp
-  ModelAnimator.cpp
-  ModelMesh.cpp
   Generating Code...
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(99): warning C4715: 'Game::WndProc': not all control paths return a value
   Compiling...
+  ModelAnimator.cpp
+  ModelMesh.cpp
   ModelRenderer.cpp
   MonoBehaviour.cpp
   Pass.cpp
