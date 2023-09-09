@@ -12,6 +12,7 @@ void InstancingManager::Render(vector<shared_ptr<GameObject>>& gameObjects)
 
 	RenderMeshRenderer(gameObjects);
 	RenderModelRenderer(gameObjects);
+	RenderAnimRenderer(gameObjects);
 }
 
 void InstancingManager::ClearData()
@@ -92,6 +93,53 @@ void InstancingManager::RenderModelRenderer(vector<shared_ptr<GameObject>>& game
 		// 아이디 당 그려주는 건 딱 한번만 호출되어야함 -> 배열의 첫 번째 오브젝트 MeshRenderer만 호출
 		shared_ptr<InstancingBuffer>& buffer = _buffers[instanceId];
 		vec[0]->GetModelRenderer()->RenderInstancing(buffer);
+	}
+}
+
+void InstancingManager::RenderAnimRenderer(vector<shared_ptr<GameObject>>& gameObjects)
+{
+	map<InstanceID, vector<shared_ptr<GameObject>>> cache;
+
+	// 분류 단계
+	for (shared_ptr<GameObject>& gameObject : gameObjects)
+	{
+		if (gameObject->GetModelAnimator() == nullptr)
+			continue;
+
+		const InstanceID instanceId = gameObject->GetModelAnimator()->GetInstanceID();
+		cache[instanceId].push_back(gameObject);
+	}
+
+	for (auto& pair : cache)
+	{
+		// stack 영역에 만들면 스택이 초과할 수도 있기 때문에 shared_ptr을 통해 Heap으로 만들어준다
+		// InstancedTweenDesc tweenDesc; 
+		shared_ptr<InstancedTweenDesc> tweenDesc = make_shared<InstancedTweenDesc>();
+
+		const vector<shared_ptr<GameObject>>& vec = pair.second;
+
+		// 하나만 있어도 무조건 인스턴싱을 적용하는 버전으로 작성됨
+		const InstanceID instanceId = pair.first;
+		for (int32 i = 0; i < vec.size(); i++)
+		{
+			const shared_ptr<GameObject>& gameObject = vec[i];
+
+			InstancingData data;
+			data.world = gameObject->GetTransform()->GetWorldMatrix();
+
+			AddData(instanceId, data);
+
+			// INSTANCING
+			gameObject->GetModelAnimator()->UpdateTweenData();
+			TweenDesc& desc = gameObject->GetModelAnimator()->GetTweenDesc();
+			tweenDesc->tweens[i] = desc;
+		}
+
+		RENDER->PushTweenData(*tweenDesc.get());
+
+		// 아이디 당 그려주는 건 딱 한번만 호출되어야함 -> 배열의 첫 번째 오브젝트 MeshRenderer만 호출
+		shared_ptr<InstancingBuffer>& buffer = _buffers[instanceId];
+		vec[0]->GetModelAnimator()->RenderInstancing(buffer);
 	}
 }
 
