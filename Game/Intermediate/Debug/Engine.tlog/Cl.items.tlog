@@ -13,6 +13,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\IndexBuffer.cpp;C:\Users\user\Do
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\InputManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\InputManager.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\InstancingBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\InstancingBuffer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\InstancingManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\InstancingManager.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Light.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Light.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Material.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Mesh.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MeshRenderer.obj
@@ -27,6 +28,8 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.cpp;C:\Users\user\Documents\
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\RenderManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\RenderManager.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ResourceBase.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ResourceManager.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Scene.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Scene.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\SceneManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\SceneManager.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Shader.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Technique.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Texture.obj
