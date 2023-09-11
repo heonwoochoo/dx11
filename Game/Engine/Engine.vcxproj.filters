@@ -34,6 +34,9 @@
     <Filter Include="00.Engine\Resource\Model">
       <UniqueIdentifier>{3e97d066-3577-4f34-a9d3-9fe55ddca19e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="05.ComputeShader">
+      <UniqueIdentifier>{96c27077-1425-48ca-a22f-43ae1fe641ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -155,6 +158,9 @@
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
       <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RawBuffer.cpp">
+      <Filter>05.ComputeShader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -286,6 +292,9 @@
     </ClInclude>
     <ClInclude Include="SceneManager.h">
       <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RawBuffer.h">
+      <Filter>05.ComputeShader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

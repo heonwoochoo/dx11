@@ -25,6 +25,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelRenderer.cpp;C:\Users\user\
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MonoBehaviour.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Pass.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\pch.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\RawBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\RawBuffer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\RenderManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\RenderManager.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ResourceBase.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ResourceManager.obj

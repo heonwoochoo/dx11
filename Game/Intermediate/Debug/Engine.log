@@ -28,6 +28,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\RawBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\RenderManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.h
@@ -42,7 +43,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  43개 파일이 복사되었습니다.
+  44개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -98,6 +99,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'G
   ModelRenderer.cpp
   MonoBehaviour.cpp
   Pass.cpp
+  RawBuffer.cpp
   RenderManager.cpp
   ResourceBase.cpp
   ResourceManager.cpp

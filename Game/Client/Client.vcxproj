@@ -19,28 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnimInstancingDemo.h" />
     <ClInclude Include="CameraScript.h" />
-    <ClInclude Include="InstancingDemo.h" />
+    <ClInclude Include="GroupDemo.h" />
     <ClInclude Include="Main.h" />
-    <ClInclude Include="MeshInstancingDemo.h" />
-    <ClInclude Include="ModelInstancingDemo.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="RenderDemo.h" />
+    <ClInclude Include="RawBufferDemo.h" />
     <ClInclude Include="SceneDemo.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AnimInstancingDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
-    <ClCompile Include="InstancingDemo.cpp" />
+    <ClCompile Include="GroupDemo.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="MeshInstancingDemo.cpp" />
-    <ClCompile Include="ModelInstancingDemo.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="RenderDemo.cpp" />
+    <ClCompile Include="RawBufferDemo.cpp" />
     <ClCompile Include="SceneDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +43,7 @@
     <FxCompile Include="..\Shaders\ConstantBuffer.fx" />
     <FxCompile Include="..\Shaders\Global.fx" />
     <FxCompile Include="..\Shaders\GlobalTest.fx" />
+    <FxCompile Include="..\Shaders\GroupDemo.fx" />
     <FxCompile Include="..\Shaders\InstancingDemo.fx" />
     <FxCompile Include="..\Shaders\Light.fx" />
     <FxCompile Include="..\Shaders\Lighting.fx" />
@@ -71,6 +66,7 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
+    <FxCompile Include="..\Shaders\RawBufferDemo.fx" />
     <FxCompile Include="..\Shaders\Render.fx" />
     <FxCompile Include="..\Shaders\RenderDemo.fx" />
     <FxCompile Include="..\Shaders\Sampler.fx" />
