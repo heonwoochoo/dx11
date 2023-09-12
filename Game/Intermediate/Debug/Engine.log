@@ -35,6 +35,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Scene.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\SceneManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\StructuredBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\TextureBuffer.h
@@ -44,7 +45,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  45개 파일이 복사되었습니다.
+  46개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -108,6 +109,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'G
   SceneManager.cpp
   Shader.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  StructuredBuffer.cpp
   Technique.cpp
   Texture.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
@@ -137,9 +139,9 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,15): message : see 
               _Alloc=std::allocator<char>
           ]
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,2): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Utils::ToString'
-  VertexBuffer.cpp
   Generating Code...
   Compiling...
+  VertexBuffer.cpp
   VertexData.cpp
   Generating Code...
   Engine.vcxproj -> C:\Users\user\Documents\GitHub\dx11\Game\Libraries\Lib\Engine\Engine.lib

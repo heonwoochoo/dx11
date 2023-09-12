@@ -32,6 +32,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.cpp;C:\Users\use
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Scene.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Scene.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\SceneManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\SceneManager.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Shader.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\StructuredBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\StructuredBuffer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Technique.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Texture.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\TextureBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\TextureBuffer.obj
