@@ -37,13 +37,14 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\TextureBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\TimeManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Transform.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Types.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
-  44개 파일이 복사되었습니다.
+  45개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -111,6 +112,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C426
   Texture.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(24,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
+  TextureBuffer.cpp
   TimeManager.cpp
   Transform.cpp
   Utils.cpp
@@ -136,6 +138,8 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,15): message : see 
           ]
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,2): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Utils::ToString'
   VertexBuffer.cpp
+  Generating Code...
+  Compiling...
   VertexData.cpp
   Generating Code...
   Engine.vcxproj -> C:\Users\user\Documents\GitHub\dx11\Game\Libraries\Lib\Engine\Engine.lib

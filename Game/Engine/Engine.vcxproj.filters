@@ -37,6 +37,9 @@
     <Filter Include="05.ComputeShader">
       <UniqueIdentifier>{96c27077-1425-48ca-a22f-43ae1fe641ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="05.ComputeShader\Buffer">
+      <UniqueIdentifier>{3a15970a-65e2-4d4d-9467-ccaaf82dc07a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -160,7 +163,10 @@
       <Filter>02.Managers</Filter>
     </ClCompile>
     <ClCompile Include="RawBuffer.cpp">
-      <Filter>05.ComputeShader</Filter>
+      <Filter>05.ComputeShader\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBuffer.cpp">
+      <Filter>05.ComputeShader\Buffer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -294,7 +300,10 @@
       <Filter>02.Managers</Filter>
     </ClInclude>
     <ClInclude Include="RawBuffer.h">
-      <Filter>05.ComputeShader</Filter>
+      <Filter>05.ComputeShader\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBuffer.h">
+      <Filter>05.ComputeShader\Buffer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

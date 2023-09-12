@@ -25,6 +25,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="RawBufferDemo.h" />
     <ClInclude Include="SceneDemo.h" />
+    <ClInclude Include="TextureBufferDemo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CameraScript.cpp" />
@@ -36,6 +37,7 @@
     </ClCompile>
     <ClCompile Include="RawBufferDemo.cpp" />
     <ClCompile Include="SceneDemo.cpp" />
+    <ClCompile Include="TextureBufferDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\AnimationDemo.fx" />
@@ -71,6 +73,7 @@
     <FxCompile Include="..\Shaders\RenderDemo.fx" />
     <FxCompile Include="..\Shaders\Sampler.fx" />
     <FxCompile Include="..\Shaders\SkyDemo.fx" />
+    <FxCompile Include="..\Shaders\TextureBufferDemo.fx" />
     <FxCompile Include="..\Shaders\Triangle.fx">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </AdditionalIncludeDirectories>
