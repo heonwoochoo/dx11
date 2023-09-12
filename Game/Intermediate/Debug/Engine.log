@@ -1,4 +1,5 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\) contains files shared from another project (AssimpTool.vcxproj, Client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\BindShaderDesc.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Camera.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Component.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.h
@@ -29,7 +30,6 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\RawBuffer.h
-  C:\Users\user\Documents\GitHub\dx11\Game\Engine\RenderManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Scene.h
@@ -46,8 +46,8 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
   46개 파일이 복사되었습니다.
-  파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
+  파일을 찾을 수 없습니다-*.inl
   pch.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(5,2): warning C4309: 'initializing': truncation of constant value
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(5,2): warning C4369: 'ResourceType::None':  enumerator value '-1' cannot be represented as 'unsigned char', value is '-1'
@@ -102,7 +102,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'G
   MonoBehaviour.cpp
   Pass.cpp
   RawBuffer.cpp
-  RenderManager.cpp
+  BindShaderDesc.cpp
   ResourceBase.cpp
   ResourceManager.cpp
   Scene.cpp

@@ -135,7 +135,7 @@ void InstancingManager::RenderAnimRenderer(vector<shared_ptr<GameObject>>& gameO
 			tweenDesc->tweens[i] = desc;
 		}
 
-		RENDER->PushTweenData(*tweenDesc.get());
+		vec[0]->GetModelAnimator()->GetShader()->PushTweenData(*tweenDesc.get());
 
 		// 아이디 당 그려주는 건 딱 한번만 호출되어야함 -> 배열의 첫 번째 오브젝트 MeshRenderer만 호출
 		shared_ptr<InstancingBuffer>& buffer = _buffers[instanceId];
