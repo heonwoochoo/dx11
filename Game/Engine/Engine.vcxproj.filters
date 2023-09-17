@@ -40,6 +40,9 @@
     <Filter Include="05.ComputeShader\Buffer">
       <UniqueIdentifier>{3a15970a-65e2-4d4d-9467-ccaaf82dc07a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="04.Component\Collision">
+      <UniqueIdentifier>{18cc41af-e95e-4f3f-a861-2edc0d6263ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -173,6 +176,18 @@
     </ClCompile>
     <ClCompile Include="Viewport.cpp">
       <Filter>01.Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCollider.cpp">
+      <Filter>04.Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>04.Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBBoxCollider.cpp">
+      <Filter>04.Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBBoxCollider.cpp">
+      <Filter>04.Component\Collision</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -316,6 +331,18 @@
     </ClInclude>
     <ClInclude Include="Viewport.h">
       <Filter>01.Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCollider.h">
+      <Filter>04.Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>04.Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBBoxCollider.h">
+      <Filter>04.Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBBoxCollider.h">
+      <Filter>04.Component\Collision</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -63,6 +63,9 @@
     <ClCompile Include="ViewportDemo.cpp">
       <Filter>Game\Week3</Filter>
     </ClCompile>
+    <ClCompile Include="CollisionDemo.cpp">
+      <Filter>Game\Week3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -90,6 +93,9 @@
       <Filter>Game\Week3</Filter>
     </ClInclude>
     <ClInclude Include="ViewportDemo.h">
+      <Filter>Game\Week3</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDemo.h">
       <Filter>Game\Week3</Filter>
     </ClInclude>
   </ItemGroup>

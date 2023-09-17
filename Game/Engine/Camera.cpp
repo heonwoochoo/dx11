@@ -27,11 +27,7 @@ void Camera::UpdateMatrix()
 	Vec3 eyePosition = GetTransform()->GetPosition();
 	Vec3 focusPosition = eyePosition + GetTransform()->GetLook();
 	Vec3 upDirection = GetTransform()->GetUp();
-	S_MatView = ::XMMatrixLookAtLH(eyePosition, focusPosition, upDirection);
 
-	// 월드의 역행렬을 구해주는 것과 같다
-	//S_MatView = GetTransform()->GetWorldMatrix().Invert();
-
-	S_MatProjection = ::XMMatrixPerspectiveFovLH(_fov, _width / _height, _near, _far);
-	//S_MatProjection = XMMatrixOrthographicLH(8.f, 6.f, 0.f, 1.f);
+	_matView = S_MatView = ::XMMatrixLookAtLH(eyePosition, focusPosition, upDirection);
+	_matProjection = S_MatProjection = ::XMMatrixPerspectiveFovLH(_fov, _width / _height, _near, _far);
 }

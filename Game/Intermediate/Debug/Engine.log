@@ -1,4 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\) contains files shared from another project (AssimpTool.vcxproj, Client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\AABBBoxCollider.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\BaseCollider.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\BindShaderDesc.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Camera.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Component.h
@@ -27,6 +29,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelMesh.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ModelRenderer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\OBBBoxCollider.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\RawBuffer.h
@@ -35,6 +38,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Scene.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\SceneManager.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\SphereCollider.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\StructuredBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Technique.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.h
@@ -46,7 +50,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Viewport.h
-  47개 파일이 복사되었습니다.
+  51개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -55,6 +59,8 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(5,2): warning C43
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4340: 'Mesh': value wrapped from positive to negative value
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4309: 'initializing': truncation of constant value
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4369: 'ResourceType::Mesh':  enumerator value '256' cannot be represented as 'unsigned char', value is '256'
+  AABBBoxCollider.cpp
+  BaseCollider.cpp
   Camera.cpp
   Component.cpp
   ConstantBuffer.cpp
@@ -91,16 +97,17 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Graphics.cpp(33,47): warning C42
   Light.cpp
   Material.cpp
   Mesh.cpp
-  MeshRenderer.cpp
-  Model.cpp
   Generating Code...
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'Game::WndProc': not all control paths return a value
   Compiling...
+  MeshRenderer.cpp
+  Model.cpp
   ModelAnimation.cpp
   ModelAnimator.cpp
   ModelMesh.cpp
   ModelRenderer.cpp
   MonoBehaviour.cpp
+  OBBBoxCollider.cpp
   Pass.cpp
   RawBuffer.cpp
   BindShaderDesc.cpp
@@ -110,11 +117,14 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'G
   SceneManager.cpp
   Shader.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  SphereCollider.cpp
   StructuredBuffer.cpp
   Technique.cpp
   Texture.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(23,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Texture.cpp(24,14): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
   TextureBuffer.cpp
   TimeManager.cpp
   Transform.cpp
@@ -140,8 +150,6 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,15): message : see 
               _Alloc=std::allocator<char>
           ]
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Utils.cpp(55,2): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Utils::ToString'
-  Generating Code...
-  Compiling...
   VertexBuffer.cpp
   VertexData.cpp
   Viewport.cpp
