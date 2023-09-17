@@ -16,6 +16,7 @@
 #include "Scene.h"
 #include "AABBBoxCollider.h"
 #include "OBBBoxCollider.h"
+#include "Terrain.h"
 
 void CollisionDemo::Init()
 {
@@ -42,8 +43,7 @@ void CollisionDemo::Init()
 		light->GetLight()->SetLightDesc(lightDesc);
 		CUR_SCENE->Add(light);
 	}
-
-	// Mesh
+	
 	// Material
 	{
 		shared_ptr<Material> material = make_shared<Material>();
@@ -57,6 +57,15 @@ void CollisionDemo::Init()
 		RESOURCES->Add(L"MasterYi", material);
 	}
 
+	// Terrain
+	{
+		auto obj = make_shared<GameObject>();
+		obj->AddComponent(make_shared<Terrain>());
+		obj->GetTerrain()->Create(10, 10, RESOURCES->Get<Material>(L"MasterYi"));
+		CUR_SCENE->Add(obj);
+	}
+
+	// Mesh
 	{
 		auto obj = make_shared<GameObject>();
 		obj->GetOrAddTransform()->SetLocalPosition(Vec3(0.f,0.f,0.f));

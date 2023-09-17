@@ -12,6 +12,7 @@ enum class ComponentType : uint8
 	ModelRenderer,
 	Light,
 	Collider,
+	Terrain,
 	//...
 	Script,
 
