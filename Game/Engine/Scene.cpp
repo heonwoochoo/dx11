@@ -3,6 +3,7 @@
 #include "Camera.h"
 #include "BaseCollider.h"
 #include "Terrain.h"
+#include "Button.h"
 
 void Scene::Start()
 {
@@ -23,6 +24,8 @@ void Scene::Update()
 	{
 		object->Update();
 	}
+
+	PickUI();
 }
 
 void Scene::LateUpdate()
@@ -89,6 +92,30 @@ shared_ptr<GameObject> Scene::GetUICamera()
 	return nullptr;
 }
 
+void Scene::PickUI()
+{
+	if (INPUT->GetButtonDown(KEY_TYPE::LBUTTON) == false)
+		return;
+
+	if (GetUICamera() == nullptr)
+		return;
+
+	POINT screenPt = INPUT->GetMousePos();
+
+	shared_ptr<Camera> camera = GetUICamera()->GetCamera();
+
+	const auto gameObjects = GetObjects();
+
+	for (auto& gameObject : gameObjects)
+	{
+		if (gameObject->GetButton() == nullptr)
+			continue;
+
+		if (gameObject->GetButton()->Picked(screenPt))
+			gameObject->GetButton()->InvokeOnClicked();
+	}
+}
+
 shared_ptr<GameObject> Scene::Pick(int32 screenX, int32 screenY)
 {
 	shared_ptr<Camera> camera = GetMainCamera()->GetCamera();
@@ -111,6 +138,9 @@ shared_ptr<GameObject> Scene::Pick(int32 screenX, int32 screenY)
 	
 	for (auto& gameObject : gameObjects)
 	{
+		if (camera->IsCulled(gameObject->GetLayerIndex()))
+			continue;
+
 		if (gameObject->GetCollider() == nullptr)
 			continue;
 

@@ -2,6 +2,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\AABBBoxCollider.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\BaseCollider.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\BindShaderDesc.h
+  C:\Users\user\Documents\GitHub\dx11\Game\Engine\Button.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Camera.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Component.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\ConstantBuffer.h
@@ -53,7 +54,7 @@
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexBuffer.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\VertexData.h
   C:\Users\user\Documents\GitHub\dx11\Game\Engine\Viewport.h
-  54개 파일이 복사되었습니다.
+  55개 파일이 복사되었습니다.
   파일을 찾을 수 없습니다-*.inl
   0개 파일이 복사되었습니다.
   pch.cpp
@@ -64,7 +65,11 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C43
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.h(6,2): warning C4369: 'ResourceType::Mesh':  enumerator value '256' cannot be represented as 'unsigned char', value is '256'
   AABBBoxCollider.cpp
   BaseCollider.cpp
-  BindShaderDesc.cpp
+  Button.cpp
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Button.cpp(46,27): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Button.cpp(47,28): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Button.cpp(48,26): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Button.cpp(49,29): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
   Camera.cpp
   Component.cpp
   ConstantBuffer.cpp
@@ -116,6 +121,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'G
   Pass.cpp
   Primitive3D.cpp
   RawBuffer.cpp
+  BindShaderDesc.cpp
   ResourceBase.cpp
   ResourceManager.cpp
   Scene.cpp
@@ -123,9 +129,9 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\Game.cpp(100): warning C4715: 'G
   Shader.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Shader.cpp(162,26): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
   SphereCollider.cpp
-  StructuredBuffer.cpp
   Generating Code...
   Compiling...
+  StructuredBuffer.cpp
   Technique.cpp
   Terrain.cpp
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Terrain.cpp(43,38): warning C4244: 'argument': conversion from 'int32' to 'float', possible loss of data
