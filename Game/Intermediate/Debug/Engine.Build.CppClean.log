@@ -2,7 +2,7 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\engine.pch
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.pdb
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.idb
 c:\users\user\documents\github\dx11\game\intermediate\debug\pch.obj
-c:\users\user\documents\github\dx11\game\intermediate\debug\mesh.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\mathutils.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\material.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\light.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\instancingmanager.obj
@@ -22,8 +22,6 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\component.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\camera.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\basecollider.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\aabbboxcollider.obj
-c:\users\user\documents\github\dx11\game\intermediate\debug\terrain.obj
-c:\users\user\documents\github\dx11\game\intermediate\debug\technique.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\structuredbuffer.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\spherecollider.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\shader.obj
@@ -33,6 +31,7 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\resourcemanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\resourcebase.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\bindshaderdesc.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\rawbuffer.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\primitive3d.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\pass.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\obbboxcollider.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\monobehaviour.obj
@@ -42,6 +41,7 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\modelanimator.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\modelanimation.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\model.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\meshrenderer.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\mesh.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\viewport.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\vertexdata.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\vertexbuffer.obj
@@ -50,7 +50,23 @@ c:\users\user\documents\github\dx11\game\intermediate\debug\transform.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\timemanager.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\texturebuffer.obj
 c:\users\user\documents\github\dx11\game\intermediate\debug\texture.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\terrain.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\technique.obj
 c:\users\user\documents\github\dx11\game\libraries\lib\engine\engine.lib
+c:\users\user\documents\github\dx11\game\intermediate\debug\camerascript.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\collisiondemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\groupdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\main.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\orthographicdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\rawbufferdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\scenedemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\structuredbufferdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\texturebufferdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\viewportdemo.obj
+c:\users\user\documents\github\dx11\game\intermediate\debug\client.ilk
+c:\users\user\documents\github\dx11\game\intermediate\debug\client.pch
+c:\users\user\documents\github\dx11\game\intermediate\debug\vc143.idb
+c:\users\user\documents\github\dx11\game\intermediate\debug\vc143.pdb
 c:\users\user\documents\github\dx11\game\intermediate\debug\engine.vcxproj.filelistabsolute.txt
 c:\users\user\documents\github\dx11\game\intermediate\debug\engine.tlog\cl.command.1.tlog
 c:\users\user\documents\github\dx11\game\intermediate\debug\engine.tlog\cl.items.tlog

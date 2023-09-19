@@ -17,6 +17,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\InstancingBuffer.cpp;C:\Users\us
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\InstancingManager.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\InstancingManager.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Light.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Light.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Material.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Material.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\MathUtils.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MathUtils.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Mesh.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Mesh.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\MeshRenderer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\MeshRenderer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Model.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Model.obj
@@ -28,6 +29,7 @@ C:\Users\user\Documents\GitHub\dx11\Game\Engine\MonoBehaviour.cpp;C:\Users\user\
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\OBBBoxCollider.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\OBBBoxCollider.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\Pass.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Pass.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\pch.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\pch.obj
+C:\Users\user\Documents\GitHub\dx11\Game\Engine\Primitive3D.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\Primitive3D.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\RawBuffer.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\RawBuffer.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\BindShaderDesc.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\BindShaderDesc.obj
 C:\Users\user\Documents\GitHub\dx11\Game\Engine\ResourceBase.cpp;C:\Users\user\Documents\GitHub\dx11\Game\Intermediate\Debug\ResourceBase.obj
